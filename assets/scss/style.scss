@@ -160,8 +160,8 @@ body {
             }
 
             &#companies {
+                flex-flow: row wrap;
                 margin: 5rem auto;
-                flex-direction: row;
                 @include flex(5rem);
                 justify-content: center;
             }
@@ -172,11 +172,11 @@ body {
         background-color: #F5F6F8;
         width: 100%;
         @include flex-column;
+        padding: 3rem 3rem 1rem 3rem;
         
         .footer-wrapper {
             @include flex;
             width: 100%;
-            padding: 3rem 3rem 1rem 3rem;
 
             .flex-start {
                 @include flex;
@@ -200,6 +200,71 @@ body {
 
             .social {
                 @include flex;
+            }
+        }
+    }
+}
+
+@media screen and (orientation: portrait) {
+    body {
+        main {
+
+            .buttons {
+                @include flex-column;
+                width: 60vw;
+
+                button {
+                    width: 100%;
+                }
+            }
+
+            section {
+                &#companies {
+                flex-direction: column;
+                }
+
+                &#keep-track {
+                    gap: 3rem;
+                    .grid {
+                        @include flex-column;
+                        gap: 4rem;
+
+                        img {
+                            position: static;
+                            width: 80vw;
+                            max-width: 100%;
+                        }
+
+                        .features {
+                            .feature {
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+
+                &#workflow {
+                    .tools {
+                        @include flex-column;
+                        gap: 4rem;
+                    }
+                }
+            }
+        }
+
+        footer {
+            .footer-wrapper {
+                @include flex-column;
+
+                .flex-start {
+                    @include flex-column;
+                    margin-left: 0;
+                    gap: 3rem;
+
+                    .links {
+                        @include flex-column;
+                    }
+                }
             }
         }
     }
