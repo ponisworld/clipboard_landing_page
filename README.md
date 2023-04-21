@@ -1,4 +1,4 @@
-# Frontend Mentor - \\ SCSS Clipboard Website //
+# Frontend Mentor - SCSS Clipboard Website
 
 This is a solution to the [Clipboard landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
@@ -38,4 +38,4 @@ Users should be able to:
 ## Author
 
 - Website - [Andrea Bellver García](https://www.linkedin.com/in/andrea-bellver-garcia/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/ponisworld)
+- Frontend Mentor - [@ponisworld](https://www.frontendmentor.io/profile/ponisworld)
