@@ -23,7 +23,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/ponisworld/clipboard_landing_page/](https://github.com/ponisworld/clipboard_landing_page/)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://ponisworld.github.io/clipboard_landing_page/](https://ponisworld.github.io/clipboard_landing_page/)
 
 ## My process
 
